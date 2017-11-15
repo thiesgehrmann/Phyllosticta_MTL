@@ -93,7 +93,7 @@ rule relevantGenomeScaffold:
     prevScaffold = ""
     prevGene     = ""
     with open(output.loci, "w") as ofd:
-      ofd.write("\n----------------\nGenome: %s\n" % genome)
+      ofd.write("\n----------------\nGenome: %s\n" % wildcards.genome)
       for (scaffold, start, gene) in sorted(geneOrder, key=lambda x: (x[0], x[1])):
         if scaffold != prevScaffold:
           prevScaffold = scaffold
