@@ -1,0 +1,9 @@
+{
+  "outdir" : "./",
+  "data": {
+    "MTL_genes" : "",
+    "genomes" : {}
+  },
+  "evalue_thresh" : 1.0e-30
+}
+

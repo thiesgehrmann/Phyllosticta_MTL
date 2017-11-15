@@ -1,0 +1,16 @@
+{
+  "outdir" : "./",
+  "data": {
+    "MTL_genes" : "example/mat_loci.fasta",
+    "genomes" : { 
+      "Phyllosticta_citribraziliensis" : { "genome" : "example/Phcit1_AssemblyScaffolds_Phyllosticta_citribraziliensis.fasta" },
+      "Phyllosticta_citrichinaensis" : { "genome" : "example/Phcitr1_AssemblyScaffolds_Phyllosticta_citrichinaensis.fasta" },
+      "Phyllosticta_paracitricarpa" : { "genome" : "example/Phy27169_AssemblyScaffolds_Phyllosticta_paracitricarpa.fasta" },
+      "Phyllosticta_capitalensis" : { "genome" : "example/Phycap1_AssemblyScaffolds_Phyllosticta_capitalensis.fasta" },
+      "Phyllosticta_citriasiana" : { "genome" : "example/Phycit1_AssemblyScaffolds_Phyllosticta_citriasiana.fasta" },
+      "Phyllosticta_citricarpa.Australia" : { "genome" : "example/Phycitr1_AssemblyScaffolds_Phyllosticta_citricarpa.Australia.fasta" },
+      "Phyllosticta_citricarpa.Europe" : { "genome" : "example/Phycpc1_AssemblyScaffolds_Phyllosticta_citricarpa.Europe.fasta" }
+    }
+  },
+  "evalue_thresh" : 1.0e-30 
+} 
